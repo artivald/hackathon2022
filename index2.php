@@ -3,7 +3,7 @@
 <?php
 include_once("ph.php") ;
 $filename = 'zay.txt' ; 
-$filename2 = "rez.txt";
+$filename2 = "rez2.txt";
 $fd = fopen($filename2, "a+") ;  
 fwrite ($fd, $_POST["text"]);    
  ?>
