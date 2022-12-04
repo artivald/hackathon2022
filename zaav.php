@@ -8,22 +8,45 @@ include_once("ph.php") ;
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Заполнение заявки</title>
 </head>
-<body>
+<body bgcolor="#000" background="nubex1.jpg">
 <div class="box">
 	<form method="POST"><table border="0">
-<tr><td>ФИО </td> <td> <input type="txt" name="username"></td></tr>
-<tr><td>Должность</td> <td><input type="txt" name="dol" ></td></tr>
-<tr><td>Место работы </td> <td><input type="txt" name="work" ></td></tr>
-<tr><td>Тема работы </td><td> <input type="txt" name="tema"></td></tr>
-<tr><td>Заголовок работы</td> <td> <input type="txt" name="zag"></td></tr>
-<tr><td>Аннотация работы</td> <td> <input type="txt" name="ano"></td></tr>
-<tr><td>ССылка на конкурсную работу(PDF/DOCX)</td> <td> <input type="txt" name="ss1"></td></tr>
-<tr><td>ССылка на копию конкурсной работы(AVI/MP4)</td> <td> <input type="txt" name="ss2"></td></tr>
-<tr><td>ССылка на материал в сети интернет</td> <td> <input type="txt" name="ss3"></td></tr>
-<tr> <td><input type="submit" name="go"></td></tr>
-<tr><td><a href="index.php">Вернуться на главную </a></td></tr>
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > ФИО </p> </td> <td> <input type="txt" name="username" style="background-color:LightGray;"></td></tr> 
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Должность </p> </td> <td><input type="txt" name="dol" style="background-color:LightGray;" ></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Место работы </p> </td> <td><input type="txt" name="work" style="background-color:LightGray;"></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Тема работы </p> </td><td> <input type="txt" name="tema" style="background-color:LightGray;"></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Заголовок работы </p> </td> <td> <input type="txt" name="zag" style="background-color:LightGray;"></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Аннотация работы </p> </td> <td> <input type="txt" name="ano" style="background-color:LightGray;"></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Сcылка на конкурсную работу(PDF/DOCX) </p> </td> <td> <input type="txt" name="ss1" style="background-color:LightGray;" ></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Сcылка на копию конкурсной работы(AVI/MP4) </p> </td> <td> <input type="txt" name="ss2" style="background-color:LightGray;"></td></tr>
+        
+        
+<tr><td><p style= "font-size: 36px; color:#FFDEAD;" > Сcылка на материал в сети интернет </p> </td> <td> <input type="txt" name="ss3" style="background-color:LightGray;"></td></tr>
+        
+    
+              
+        
 	</table> </form>
-
+    
+ <br> <br> <tr> <td>  <input type="submit" name="go" style="background-color:#ffa257; font-size: 22px;" >   </td></tr> 
+    
+<br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <tr><td>  <a href="index.php"   style="color:#FFDEAD; font-size: 20px; text-decoration: none;"> Вернуться на главную  </a>  </td></tr>
+    
 </div>
 </body>
 </html>
