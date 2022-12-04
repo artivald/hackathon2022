@@ -18,11 +18,12 @@ echo "<div class=\"fon\">" ;
 foreach ($file as $row) {
 		$row = explode("#", $row) ;
 	echo "<table border=\"0\"> ";
-		echo "<tr><td><div class=\"fio\"> <strong>ФИО:</strong>$row[0]  </td><td><strong>Тема работы: </strong>$row[2]</td></tr>";
+		echo "<tr><td> <div class=\"fio\"> <strong>ФИО:</strong>$row[0]  </td><td><strong>Тема работы: </strong>$row[2]</td></tr>";
 		echo "<tr><td><div class=\"fio\"> <strong>Должность:</strong>$row[8]  </td><td><strong>Заголовок работы: </strong>$row[3]</td></tr>" ;
 		echo "<tr><td><div class=\"fio\"> <strong>Место работы:</strong>$row[1]  </td><td><strong>Аннотация работы: </strong>$row[4]</td></tr>" ;
-		echo "<tr><td><a href=\"$row[6]\">Ссылка на работу </a></td></tr>" ;
-
+        echo "<tr><td><a href=\"$row[5]\">Ссылка на материал </a></td></tr>" ;
+		echo "<tr><td><a href=\"$row[6]\">Ссылка на видео </a></td></tr>" ;
+        echo "<tr><td><a href=\"$row[7]\">Ссылка на статью в интернете </a></td></tr>" ;
 		echo "</table>";	}
 	    echo "</div>";
 ?>
